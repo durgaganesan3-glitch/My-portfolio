@@ -381,3 +381,50 @@ body {
     background: white;
     transform: scale(1.05);
 }
+
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+    /* NAVBAR FIX */
+    .navbar {
+        padding: 15px 5%;
+    }
+    .nav-links {
+        display: none;
+        /* hide menu */
+    }
+    /* SECTION FIX */
+    .section {
+        padding: 80px 5%;
+    }
+    .section-title {
+        font-size: 1.8rem;
+    }
+    /* HERO FIX */
+    .profile-box {
+        width: 140px;
+        height: 140px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 14px;
+    }
+    /* BUTTON FIX */
+    .btn-primary {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+    /* GRID FIX */
+    .skills-container,
+    .project-grid,
+    .cert-grid,
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
