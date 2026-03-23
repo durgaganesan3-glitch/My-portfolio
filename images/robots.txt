@@ -1,0 +1,15 @@
+User-agent: *
+# Allow indexing of the main pages
+Allow: /
+
+# Hide the images folder from search engine image results
+Disallow: /images/
+
+# Specifically protect your sensitive images
+Disallow: /images/best-paper-cert.jpeg
+Disallow: /images/pyhton certifiacte.jpeg
+Disallow: /images/durga.jpeg
+Disallow: /images/durga.jpeg
+
+# Link to your sitemap if you have one later
+# Sitemap: https://yourusername.github.io/sitemap.xml
